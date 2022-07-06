@@ -179,7 +179,7 @@ box-sizing: border-box;
     }
     .boxes .box-1 .text p{
         width: 300px;
-        margin-left: -50px;
+        margin-left: -70px;
         margin-bottom: 50px;
     }
     .boxes .box-1 .image{
@@ -238,7 +238,7 @@ box-sizing: border-box;
         font-size: 20px;
     }
     .boxes .box-4 button{
-        margin-left: -20px;
+        margin-left: -40px;
     }
 }
 
@@ -407,6 +407,8 @@ box-sizing: border-box;
 @media (max-width:767px){
     .footer{
         flex-direction: column;
+        max-width:100%;
+         padding: 200px 20px;
     }
     .footer .first-section{
         margin-bottom: 50px;
